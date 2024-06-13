@@ -1,5 +1,5 @@
 function App() {
-  return <div>News Homepage</div>;
+  return <div className="bg-blue-500 text-2xl text-red-500">News Homepage</div>;
 }
 
 export default App;
