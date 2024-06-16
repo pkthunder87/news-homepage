@@ -1,6 +1,8 @@
 function App() {
   return (
-    <div className="mr-8 bg-blue-500 text-2xl text-red-500">News Homepage</div>
+    <div className="text-primary-soft-red bg-primary-soft-orange mr-8 text-2xl">
+      News Homepage
+    </div>
   );
 }
 
