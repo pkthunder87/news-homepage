@@ -1,5 +1,5 @@
 function Sidebar() {
-  return <div>Sidebar</div>;
+  return <div className="bg-yellow-500">Sidebar</div>;
 }
 
 export default Sidebar;

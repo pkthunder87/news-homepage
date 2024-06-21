@@ -1,5 +1,5 @@
 function Header() {
-  return <div>Nav Links</div>;
+  return <div className="bg-blue-500 md:col-span-2">Nav Links</div>;
 }
 
 export default Header;
