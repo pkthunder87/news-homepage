@@ -5,7 +5,7 @@ import TopArticles from './TopArticles';
 
 function AppLayout() {
   return (
-    <div className="grid h-[200dvh] w-[100dvw] grid-cols-1 px-24 py-12 md:h-[100dvh] md:grid-cols-[68%_32%] md:grid-rows-[15%_60%_25%]">
+    <div className="grid h-[200dvh] w-[100dvw] grid-cols-1 px-[6.3rem] py-12 md:h-[100dvh] md:grid-cols-[68.5%_31.5%] md:grid-rows-[14%_56%_30%]">
       <Header />
       <Article />
       <Sidebar />
