@@ -3,6 +3,7 @@ function TopArticles() {
     <div className="mt-[2.8rem] md:col-span-2">
       <li className="grid list-none grid-cols-3 gap-5">
         <ul className="flex gap-[.92rem]">
+          {/* Creates an overlay using only tailwind */}
           <div className="relative h-[4.9rem] w-[7.1rem]">
             <img
               className="h-[4.9rem] w-[7.1rem] brightness-90 contrast-125"
