@@ -1,6 +1,6 @@
 function Article() {
   return (
-    <div className="mr-[1.18rem]">
+    <div className="md:mr-[1.18rem]">
       <picture>
         <source media="(max-width:425px)" srcSet="image-web-3-mobile.jpg" />
         <img src="image-web-3-desktop.jpg" alt="colorful geometric blocks" />
