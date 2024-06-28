@@ -1,13 +1,13 @@
 function Article() {
   return (
-    <div className="md:mr-[1.18rem]">
+    <div className="mt-8 md:mr-[1.18rem] md:mt-0">
       <picture>
         <source media="(max-width:425px)" srcSet="image-web-3-mobile.jpg" />
         <img src="image-web-3-desktop.jpg" alt="colorful geometric blocks" />
       </picture>
 
-      <div className="grid grid-cols-[52.2%_47.8%]">
-        <h1 className="mt-[1.35rem] text-[2.15rem] font-extrabold leading-[2.18rem] text-neutral-very-dark-blue">
+      <div className="grid md:grid-cols-[52.2%_47.8%]">
+        <h1 className="mt-7 text-[2.5rem] font-extrabold text-neutral-very-dark-blue md:mt-[1.35rem] md:text-[2.15rem] md:leading-[2.18rem]">
           The Bright Future of Web 3.0?
         </h1>
         <div className="flex h-full flex-col justify-between">

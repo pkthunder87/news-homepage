@@ -9,6 +9,6 @@
   }
 
   body {
-    @apply flex h-[100dvh] w-[100dvw] items-center justify-center bg-neutral-off-white antialiased;
+    @apply flex h-[117rem] w-[100dvw] bg-neutral-off-white antialiased md:h-[100dvh] md:items-center md:justify-center;
   }
 }

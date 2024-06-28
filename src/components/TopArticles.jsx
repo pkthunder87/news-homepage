@@ -1,7 +1,7 @@
 function TopArticles() {
   return (
     <div className="mt-[2.8rem] md:col-span-2">
-      <li className="grid list-none grid-cols-3 gap-5">
+      <li className="grid list-none gap-5 md:grid-cols-3">
         <ul className="flex gap-[.92rem]">
           {/* Creates an overlay using only tailwind */}
           <div className="relative h-[4.9rem] w-[7.1rem]">

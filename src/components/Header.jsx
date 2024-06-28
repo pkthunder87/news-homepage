@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <div className="col-span-2 -mt-3 flex items-center justify-between">
+    <div className="-mt-3 flex md:col-span-2 md:items-center md:justify-between">
       <h1>
-        <img className="h-6" src="logo.svg" alt="logo" />
+        <img className="h-7 md:h-6" src="logo.svg" alt="logo" />
       </h1>
       <li className="flex list-none gap-[1.6rem] text-[.6rem] leading-4 tracking-tight">
         <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
