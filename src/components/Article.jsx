@@ -16,7 +16,7 @@ function Article() {
             power of the platforms back into the hands of the people. But is it
             really fulfilling its promise?
           </p>
-          <button className="mb-5 mt-[1.62rem] h-12 w-[11.5rem] bg-primary-soft-red pt-[.15rem] text-sm font-bold tracking-[.3em] text-neutral-very-dark-blue hover:bg-neutral-very-dark-blue hover:text-white md:-mb-1 md:mt-0 md:h-[1.88rem] md:w-[7.1rem] md:text-[.55rem]">
+          <button className="mb-6 mt-[1.62rem] h-12 w-[11.5rem] bg-primary-soft-red pt-[.15rem] text-sm font-bold tracking-[.3em] text-neutral-very-dark-blue hover:bg-neutral-very-dark-blue hover:text-white md:-mb-1 md:mt-0 md:h-[1.88rem] md:w-[7.1rem] md:text-[.55rem]">
             READ MORE
           </button>
         </div>
