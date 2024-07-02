@@ -19,6 +19,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 - Grid
 - Vite
 - React
+- Tailwind
 
 ## Author
 
