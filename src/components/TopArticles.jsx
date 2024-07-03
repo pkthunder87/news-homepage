@@ -1,12 +1,12 @@
 function TopArticles() {
   return (
-    <div className="mt-[2.8rem] md:col-span-2">
-      <li className="grid list-none gap-5 md:grid-cols-3">
+    <div className="mt-16 md:col-span-2 md:mt-[2.8rem] md:block">
+      <li className="grid list-none gap-[2.1rem] md:grid-cols-3 md:gap-5">
         <ul className="flex gap-[.92rem]">
           {/* Creates an overlay using only tailwind */}
-          <div className="relative h-[4.9rem] w-[7.1rem]">
+          <div className="relative h-[8.05rem] w-[7rem] md:h-[4.9rem] md:w-[7.1rem]">
             <img
-              className="h-[4.9rem] w-[7.1rem] brightness-90 contrast-125"
+              className="h-[8.05rem] w-[7rem] brightness-90 contrast-125 md:h-[4.9rem] md:w-[7.1rem]"
               src="image-retro-pcs.jpg"
               alt="Retro PC"
             />
@@ -26,9 +26,9 @@ function TopArticles() {
           </div>
         </ul>
         <ul className="flex gap-[.92rem]">
-          <div className="relative h-[4.87rem] w-[5.59rem]">
+          <div className="relative h-[7.9rem] w-[6.3rem] md:h-[4.87rem] md:w-[5.59rem]">
             <img
-              className="h-[4.87rem] w-[5.59rem] blur-[.2px] brightness-90 contrast-125"
+              className="h-[7.9rem] w-[6.3rem] blur-[.2px] brightness-90 contrast-125 md:h-[4.87rem] md:w-[5.59rem]"
               src="image-top-laptops.jpg"
               alt="Black and red keyboard"
             />
@@ -48,9 +48,9 @@ function TopArticles() {
           </div>
         </ul>
         <ul className="-ml-[.05rem] flex gap-[.92rem]">
-          <div className="relative h-[4.87rem] w-[6.2rem]">
+          <div className="relative h-[7.9rem] w-[6.4rem] md:h-[4.87rem] md:w-[6.2rem]">
             <img
-              className="h-[4.87rem] w-[6.2rem] blur-[.2px] brightness-[.9] contrast-125"
+              className="h-[7.9rem] w-[6.4rem] blur-[.2px] brightness-[.9] contrast-125 md:h-[4.87rem] md:w-[6.2rem]"
               src="image-gaming-growth.jpg"
               alt="PS4 Controller"
             />
