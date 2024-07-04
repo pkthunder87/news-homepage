@@ -20,7 +20,11 @@ function Header() {
         <img className="h-7 md:h-6" src="logo.svg" alt="logo" />
       </h1>
       {isMobile ? (
-        <img className="h-[1.1rem]" src="icon-menu.svg" alt="logo" />
+        <img
+          className="h-[1.1rem] hover:cursor-pointer"
+          src="icon-menu.svg"
+          alt="logo"
+        />
       ) : (
         <li className="flex list-none gap-[1.6rem] text-[.6rem] leading-4 tracking-tight">
           <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
