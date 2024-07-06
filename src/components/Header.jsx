@@ -1,5 +1,27 @@
 import { useEffect, useState } from 'react';
 
+function NavMenu() {
+  return (
+    <li className="flex list-none gap-[1.6rem] text-[.6rem] leading-4 tracking-tight">
+      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
+        Home
+      </ul>
+      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
+        New
+      </ul>
+      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
+        Popular
+      </ul>
+      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
+        Trending
+      </ul>
+      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
+        Categories
+      </ul>
+    </li>
+  );
+}
+
 function Header() {
   const [isMobile, setIsMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(true);
@@ -22,12 +44,14 @@ function Header() {
       {isMobile ? (
         <div>
           {isMenuOpen ? (
-            <img
-              className="-mt-[.1rem] mr-1 h-[1.9rem] hover:cursor-pointer"
-              src="icon-menu-close.svg"
-              alt="logo"
-              onClick={() => setIsMenuOpen(() => !isMenuOpen)}
-            />
+            <div className="absolute z-10 -ml-60 -mt-12 h-[104dvh] w-[100dvw] bg-neutral-off-white">
+              <img
+                className="left-0 ml-[12.5rem] mt-8 h-[1.9rem] hover:cursor-pointer"
+                src="icon-menu-close.svg"
+                alt="logo"
+                onClick={() => setIsMenuOpen(() => !isMenuOpen)}
+              />
+            </div>
           ) : (
             <img
               className="h-[1.1rem] hover:cursor-pointer"
@@ -38,23 +62,7 @@ function Header() {
           )}
         </div>
       ) : (
-        <li className="flex list-none gap-[1.6rem] text-[.6rem] leading-4 tracking-tight">
-          <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-            Home
-          </ul>
-          <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-            New
-          </ul>
-          <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-            Popular
-          </ul>
-          <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-            Trending
-          </ul>
-          <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-            Categories
-          </ul>
-        </li>
+        <NavMenu />
       )}
     </div>
   );
