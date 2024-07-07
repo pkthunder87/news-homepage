@@ -2,22 +2,24 @@ import { useEffect, useState } from 'react';
 
 function NavMenu() {
   return (
-    <li className="flex list-none gap-[1.6rem] text-[.6rem] leading-4 tracking-tight">
-      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-        Home
-      </ul>
-      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-        New
-      </ul>
-      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-        Popular
-      </ul>
-      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-        Trending
-      </ul>
-      <ul className="cursor-pointer text-neutral-dark-grayish-blue hover:text-primary-soft-red">
-        Categories
-      </ul>
+    <li className="flex list-none gap-[1.6rem] text-[.6rem] leading-4 tracking-tight text-neutral-dark-grayish-blue">
+      <ul className="cursor-pointer hover:text-primary-soft-red">Home</ul>
+      <ul className="cursor-pointer hover:text-primary-soft-red">New</ul>
+      <ul className="cursor-pointer hover:text-primary-soft-red">Popular</ul>
+      <ul className="cursor-pointer hover:text-primary-soft-red">Trending</ul>
+      <ul className="cursor-pointer hover:text-primary-soft-red">Categories</ul>
+    </li>
+  );
+}
+
+function NavMenuMobile() {
+  return (
+    <li className="mt-[4.5rem] flex list-none flex-col gap-[2rem] p-5 text-[1.1rem] leading-4 text-neutral-very-dark-blue">
+      <ul className="cursor-pointer hover:text-primary-soft-red">Home</ul>
+      <ul className="cursor-pointer hover:text-primary-soft-red">New</ul>
+      <ul className="cursor-pointer hover:text-primary-soft-red">Popular</ul>
+      <ul className="cursor-pointer hover:text-primary-soft-red">Trending</ul>
+      <ul className="cursor-pointer hover:text-primary-soft-red">Categories</ul>
     </li>
   );
 }
@@ -51,6 +53,7 @@ function Header() {
                 alt="logo"
                 onClick={() => setIsMenuOpen(() => !isMenuOpen)}
               />
+              <NavMenuMobile />
             </div>
           ) : (
             <img
