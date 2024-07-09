@@ -20,6 +20,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 - Vite
 - React
 - Tailwind
+- Google Fonts
 
 ## Author
 
