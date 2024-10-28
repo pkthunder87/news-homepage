@@ -11,7 +11,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Live Site URL: [Github Pages](ReplaceWithActualLiveUrl)
+- Live Site URL: [Netlify](https://news-page-pkthunder.netlify.app/)
 
 ### Built with
 
